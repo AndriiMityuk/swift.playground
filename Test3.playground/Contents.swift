@@ -7,7 +7,7 @@ let a = "23"
 let b = "765e"
 let c = "northing"
 let d = "87"
-let e = "561"
+let e = "56"
 
 var summaLet = 0
 
