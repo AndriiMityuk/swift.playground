@@ -8,7 +8,7 @@ let b = "765e"
 let c = "northing"
 let d = "87"
 let e = "56"
-let d = "test"
+
 var summaLet = 0
 
 if Int(a) != nil {
