@@ -2,7 +2,7 @@
 //base operator
 //#1
 
-let dayOfBirth = (day: 4,mounth: 1)
+let dayOfBirth = (day: 19,mounth: 10)
 let dayOfStart = (day: 1, mounth: 1)
 
 let mounthValue = dayOfBirth.mounth - dayOfStart.mounth
