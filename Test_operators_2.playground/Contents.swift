@@ -21,3 +21,10 @@ if (divLet == 3 && divOst != 0) || (divLet * divOst == 0 && divLet == 4) {
     print ("Fourth quarter!")
 }
 
+var quarter: Double = 11 / 3
+
+if quarter - Double(Int(quarter)) != 0 {
+    print(Int(quarter) + 1)
+} else {
+    print(Int(quarter))
+}

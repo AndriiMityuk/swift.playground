@@ -1,7 +1,7 @@
 // string #2
 
 let ABC = "abcdefghijklmnoprstuvwxyz"
-let letter: Character = "l"
+let letter: Character = "m"
 var number = 1
 
 for Character in ABC {

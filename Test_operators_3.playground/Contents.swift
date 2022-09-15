@@ -1,6 +1,6 @@
 
 
-let coordinateFigure = (x: 2,y: 8)
+let coordinateFigure = (x: 5,y: 4)
 
 let statusXY = (coordinateFigure.x + coordinateFigure.y) % 2
 
