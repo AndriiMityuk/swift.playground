@@ -11,6 +11,25 @@ for _ in monthName {
     i += 1
 }
 
+for (monthN, monthV) in monthValue {
+    print("\(monthN) : \(monthV)")
+}
+print("***************")
+/*
+var j = 0
+var x : String
+for _ in monthName {
+    x = monthName[j]
+    print("\(x) : \(monthValue[monthName[j]]!)")
+    j += 1
+}
+*/
+// пройшовся по dictionary значень ключів (виводить рандомний порядок місяців і їх значень)
 for nameM in monthValue.keys {
-    print("\(nameM) : \(monthValue[nameM]!) days")
+    print(nameM, monthValue[nameM]!)
+}
+// пройшовся по масиву ключів (виводить пару - значення ключа масиву і відповідне значення з dictionary)
+print("")
+for nameM in monthName {
+    print(nameM,monthValue[nameM]!)
 }
