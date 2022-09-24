@@ -19,4 +19,4 @@ for a in letter {
         //print(cell + " - white")
    }
 }
-print(chessTable)
+print(chessTable["a5"]!)

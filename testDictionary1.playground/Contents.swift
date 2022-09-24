@@ -17,3 +17,4 @@ for (_, studentValue) in magazine {
 }
 summaValue
 var averageValue : Double = Double(summaValue) / Double(magazine.count)
+// hgk..m,/,
